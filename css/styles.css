@@ -600,8 +600,13 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 60vh;
+  opacity: 75%;
 }
+
+/* .weather-dashboard{
+  color: black;
+} */
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -11524,6 +11529,7 @@ footer.footer .social-link:hover {
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
+  background-color: rgba(0,0,0,0.7);
 }
 @media (min-width: 992px) {
   .portfolio-item {
@@ -11560,6 +11566,10 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
 }
+
+/* .resume-header{
+  margin-left: 45%;
+} */
 
 .service-icon {
   background-color: #fff;
