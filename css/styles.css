@@ -600,8 +600,9 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: 60vh;
+  height: 50%;
   opacity: 75%;
+  margin: 25px;
 }
 
 /* .weather-dashboard{
@@ -11512,7 +11513,8 @@ footer.footer .social-link:hover {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  /* background-color: rgba(33, 37, 41, 0.2); */
+  background-color: rgba(0,0,0,0);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -11526,11 +11528,11 @@ footer.footer .social-link:hover {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
-.portfolio-item .caption .caption-content p {
+/* .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
   background-color: rgba(0,0,0,0.7);
-}
+} */
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
@@ -11544,6 +11546,7 @@ footer.footer .social-link:hover {
             clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
+    color: transparent;
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -11561,10 +11564,16 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(29, 128, 159, 0.7);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
+  .portfolio-item:hover .caption-content {
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
 }
 
 /* .resume-header{
